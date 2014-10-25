@@ -176,3 +176,5 @@ df2 = df2[cols2]
 test_data = df2.values
 
 output = forest.predict(test_data)
+
+print output
